@@ -44,7 +44,7 @@ The simulation initializes attention levels for "Dog," "Cat," and "Fish" in a Me
           else:
               print(f"Invalid attention value for {concept_name}, skipping drift")
     ```  
-   3. continious Drifting
+3. continious Drifting
        ```
         def continuous_drift(t_start, t_end, dt):
             t = t_start
@@ -103,6 +103,3 @@ The simulation initializes attention levels for "Dog," "Cat," and "Fish" in a Me
     ```
       python attention-bank/shifting-and-drifting/shifting-drifting.py
     ```
-
-
-
